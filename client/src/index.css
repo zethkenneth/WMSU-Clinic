@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-html {
-  background: rgb(255, 255, 255);
-}
+
 
 body {
   margin: 0;
@@ -13,6 +11,7 @@ body {
   background-image: url("./Group3.svg");
   background-position: bottom;
   background-repeat: no-repeat;
+  background: rgb(255, 255, 255)
 }
 
 body * {
@@ -21,7 +20,8 @@ body * {
 
 .container{
   width: 80%;
-  margin: 0 auto
+  height: auto;
+  margin: 0 auto;
 }
 
 nav {
@@ -132,7 +132,6 @@ h3 {
 .services-card {
   width: 40%;
   height: 400px;
- 
   background: #222;
   display: inline-block;
   border-radius: 10px;
@@ -276,4 +275,29 @@ h3 {
     width: 100%;
     margin: 40px 0px;
   }
+}
+.button{
+ background-color: white;
+ color: black;
+ border: 2px solid rgb(76, 115, 245);
+ border-radius: 12px;
+ padding: 12px 28px;
+ margin: 0 0 20px 150px;
+ font-size: 20px;
+ 
+}
+.button:hover {
+  background-color: rgb(70, 87, 243);
+  
+  color: white;
+}
+.fade-custom {
+  -webkit-transition: all .30s linear !important;
+  -o-transition: all .30s linear !important;
+  transition: all .30s linear !important;
+  transform: scale(0) !important;
+}
+
+.fade.in {
+  transform: scale(1) !important;
 }

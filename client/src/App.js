@@ -1,23 +1,25 @@
-import React  from 'react';
+import React,{ useState }  from 'react';
 import { Link} from "react-router-dom";
 import Routes from "./routes";
 
 
 function App() {
+  
+
   return (
-    <div className="App">
-      <div className="container">
-        <nav>
-          <ul>
-           <li><Link to="/"> WMSU CLINIC </Link></li>
-          </ul>
-          <ul>
-            <li>Login</li>
+    
+    <div className="App ">
+        <div className="container ">
+         <nav>
+            <ul>
+             <li><Link to="/"> WMSU CLINIC </Link></li>
             </ul>
-        </nav>
-        <Routes/>
-      </div>
-    </div>
+          </nav>
+          <Routes/>                  
+        </div>
+      </div >
+     
+    
   );
 }
 
