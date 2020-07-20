@@ -5,7 +5,7 @@ import med from "../med.svg";
 
 
 const Main = () => {
-    const [modalIsOpen, setModalIsOpen] = useState(false);
+
     return(
         <React.Fragment>
           <header>
