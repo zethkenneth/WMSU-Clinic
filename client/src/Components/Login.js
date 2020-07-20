@@ -1,7 +1,7 @@
 import React from "react";
 import loginImg from "../login.svg";
 import "../login.css";
-import Modal from "react-modal";
+
 
 const Login = (props) => {
 

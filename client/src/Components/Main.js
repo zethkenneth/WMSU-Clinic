@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import med from "../med.svg";
 
 
+
 const Main = () => {
     const [modalIsOpen, setModalIsOpen] = useState(false);
     return(
@@ -40,12 +41,11 @@ const Main = () => {
                     </div>      
                     </div>   
                  </section>
-            </main>
-
-
+            </main>          
             
         </React.Fragment>
     )
 }
 
 export default Main;
+
