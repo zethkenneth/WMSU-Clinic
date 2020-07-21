@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 import { Link } from "react-router-dom";
 import med from "../med.svg";
-
+import Footer from "./Footer";
 
 
 const Main = () => {
@@ -41,9 +41,9 @@ const Main = () => {
                     </div>      
                     </div>   
                  </section>
-            </main>          
-            
+            </main>             
         </React.Fragment>
+        
     )
 }
 

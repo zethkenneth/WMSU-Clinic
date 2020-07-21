@@ -65,7 +65,7 @@ const FooterContainer = styled.footer`
     background: var(--mainDark);
     padding-top: 3rem;
     color: var(--mainWhite);
-    
+  
 }
 .footer-bottom{
     padding-top: 3rem;

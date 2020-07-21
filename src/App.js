@@ -13,13 +13,10 @@ function App() {
              <li><Link to="/"> WMSU CLINIC </Link></li>
             </ul>
           </nav>
-          <Routes/>                  
+          <Routes/>               
         </div>
         <Footer></Footer>
-      </div >
-      
-     
-    
+      </div>
   );
 }
 
