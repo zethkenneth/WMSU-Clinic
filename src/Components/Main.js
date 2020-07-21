@@ -11,8 +11,8 @@ const Main = () => {
           <header>
                 <img src={med} alt="" />
                 <div>
-                    <h1>We care for WMSU</h1>
-                    <p> Lorem ipsum dolor sit amet,  torquent per conubia nostra, per inceptos himenaeos. Curabitur turpis velit, semper eget consectetur nec, commodo in felis. Sed tristique elit ut quam vestibulum egestas.</p>
+                    <h1>DynEd Pro</h1>
+                    <p> DynEd is an extremely effective fluency accelerator for our adult ESL students at Milwaukee Area Technical College. We use DynEd in a hybrid blend of face-to-face classes and technology-based skills practice; its brain-based approach to language acquisition helps students make rapid gains in proficiency levels.</p>
                     <Link to="/login">Login</Link>
                 </div>
           </header>
