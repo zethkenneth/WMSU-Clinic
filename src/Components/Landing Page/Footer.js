@@ -48,7 +48,7 @@ const Footer = () => {
                         {/* Footer Bottom */}
                     <div className="footer-bottom">
                         <p className="text-xs-center">
-                            &copy;{new Date().getFullYear()} Western Mindanao State University-Clinic - All Rights Reserved
+                            &copy;{new Date().getFullYear()} Western Mindanao State University-Clinic - All Rights Reserved in collaboration with Debug.Go Team
                         </p>
                     </div>
                     </div>
