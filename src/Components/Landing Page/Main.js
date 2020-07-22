@@ -1,7 +1,7 @@
-import React, {useState} from "react";
+import React from "react";
 import { Link } from "react-router-dom";
-import med from "../med.svg";
-import Footer from "./Footer";
+import med from "../../assets/img/med.svg";
+
 
 
 const Main = () => {

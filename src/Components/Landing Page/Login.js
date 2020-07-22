@@ -1,22 +1,17 @@
 import React from "react";
-import loginImg from "../login.svg";
-import "../login.css";
+import loginImg from "../../assets/img/login.svg";
+import "../../login.css";
 
 
-export class Login extends React.Component {
-    constructor(props) {
-        super(props);
-    }
+const Login =() =>  {
     
-    
-    render(){
-        return ( 
-            
-        <div className="base-container" ref={this.props.containerRef}>
+     return (    
+       <React.Fragment>
+        <div className="base-container" >
         <div className="header">Login</div>
         <div className="content">
           <div className="image">
-            <img src={loginImg} />
+            <img src={loginImg} alt={""} />
           </div>
           <div className="form">
             <div className="form-group">
@@ -35,12 +30,11 @@ export class Login extends React.Component {
           </button>
         </div>
       </div>
-        );
-        }
+      </React.Fragment>
+        )
         
-
 }
-    
+export default Login;
     
 
 

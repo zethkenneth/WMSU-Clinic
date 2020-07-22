@@ -1,28 +1,28 @@
-import React,{ useState }  from 'react';
+import React from 'react';
 import { Link} from "react-router-dom";
 import Routes from "./routes";
-import Footer from "../src/Components/Footer";
+import Footer from "./Components/Landing Page/Footer";
 
-class App extends React.Component {
- 
- 
- 
-  render(){
-  return (
+
+
+
+const App = () => {
+
+  return (   
     
     <div className="App ">
-        <div className="container ">
+        <div className="container ">     
          <nav>
             <ul>
              <li><Link to="/"> WMSU CLINIC </Link></li>
             </ul>
           </nav>
-          <Routes/>               
+          <Routes/> 
+
         </div>
         <Footer></Footer>
       </div>
-  );
-}
+  )
 
 }
 
