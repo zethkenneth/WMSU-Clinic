@@ -58,16 +58,16 @@ header {
 }
 
 header div {
-  padding-top: 150px;
+  padding-top: 50px;
 
 }
 
 header div h1 {
-  font-size: 75px;
+  font-size: 55px;
 }
 
 header div p {
-  width: 100px;
+  width: 500px;
   font-size: 20px;
   line-height: 28px;
 }
@@ -201,8 +201,8 @@ h3 {
   header img {
     width: 700px;
     right: -20%;
-    top: -30px;
-    left: -60%;
+    top: 80px;
+    left: 50%;
   }
 }
 
@@ -260,9 +260,35 @@ h3 {
 
 @media screen and (max-width: 950px) {
   header img {
+    width: 600px;
+    right: -70%;
+    top: 470px;
+    left: 10%;
+  }
+  .newsletter {
+    width: 100%;
+  }
+  .newsletter input[type="email"] {
+    width: 100%;
+    margin-right: 0px;
+  }
+  .newsletter input[type="submit"] {
+    margin-top: 40px;
+  }
+  .contact {
+    width: 90%;
+  }
+  .contact input[type="submit"] {
+    width: 100%;
+    margin: 40px 0px;
+  }
+}
+  
+@media screen and (max-width: 620px) {
+  header img {
     width: 500px;
     right: -70%;
-    top: 940px;
+    top: 670px;
     left: -15%;
   }
   .newsletter {

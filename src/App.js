@@ -1,26 +1,16 @@
 import React from 'react';
-import { Link} from "react-router-dom";
 import Routes from "./routes";
-import Footer from "./Components/Landing Page/Footer";
-
-
-
+import { Switch, Route } from "react-router-dom";
+import Dashboard from "./Components/Routes/Dashboard";
 
 const App = () => {
 
   return (   
-    
-    <div className="App ">
-        <div className="container ">     
-         <nav>
-            <ul>
-             <li><Link to="/"> WMSU CLINIC </Link></li>
-            </ul>
-          </nav>
+    <div className="App">
           <Routes/> 
-
-        </div>
-        <Footer></Footer>
+        <Switch>
+     <Route exact path="/Dashboard" component={Dashboard} />
+     </Switch>
       </div>
   )
 

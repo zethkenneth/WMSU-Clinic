@@ -1,13 +1,20 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import med from "../../assets/img/med.svg";
+import Footer from "../Landing Page/Footer";
 
 
-
-const Main = () => {
+const LandingPage = () => {
 
     return(
         <React.Fragment>
+             <div className="container ">     
+         <nav>
+            <ul>
+             <li><Link to="/"> WMSU CLINIC </Link></li>
+            </ul>
+          </nav>
+          
           <header>
                 <img src={med} alt="" />
                 <div>
@@ -35,11 +42,13 @@ const Main = () => {
                     </div>
                    
                  </section>
-            </main>             
+            </main>            
+            </div> 
+            <Footer></Footer>
         </React.Fragment>
         
     )
 }
 
-export default Main;
+export default LandingPage;
 
