@@ -1,23 +1,25 @@
 import React from "react";
-import loginImg from "../login.svg";
-import "../login.css";
+import loginImg from "../../assets/img/login.svg";
+import "../../login.css";
 
 
+<<<<<<< HEAD:src/Components/Login.js
 export class Login extends React.Component {
     constructor(props) {
         super(props);
         
     }
+=======
+const Login =() =>  {
+>>>>>>> e78bd1223081d58694aae6d22ec9972c5f694834:src/Components/Landing Page/Login.js
     
-    
-    render(){
-        return ( 
-            
-        <div className="base-container" ref={this.props.containerRef}>
+     return (    
+       <React.Fragment>
+        <div className="base-container" >
         <div className="header">Login</div>
         <div className="content">
           <div className="image">
-            <img src={loginImg} />
+            <img src={loginImg} alt={""} />
           </div>
           <div className="form">
             <div className="form-group">
@@ -36,12 +38,11 @@ export class Login extends React.Component {
           </button>
         </div>
       </div>
-        );
-        }
+      </React.Fragment>
+        )
         
-
 }
-    
+export default Login;
     
 
 

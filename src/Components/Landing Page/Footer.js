@@ -1,7 +1,7 @@
 import React from "react";
 import styled from 'styled-components';
 import 'bootstrap/dist/css/bootstrap.min.css'
-import '../Footer.css';
+import '../../Footer.css';
 const Footer = () => {
     return(
     <FooterContainer className="main-footer">
@@ -48,7 +48,8 @@ const Footer = () => {
                         {/* Footer Bottom */}
                     <div className="footer-bottom">
                         <p className="text-xs-center">
-                            &copy;{new Date().getFullYear()} Western Mindanao State University-Clinic - All Rights Reserved
+                            &copy;{new Date().getFullYear()} Western Mindanao State University-Clinic - All Rights Reserved 
+                            in collaboration with Debug.Go Team
                         </p>
                     </div>
                     </div>
@@ -65,11 +66,13 @@ const FooterContainer = styled.footer`
     background: var(--mainDark);
     padding-top: 3rem;
     color: var(--mainWhite);
+    margin-left: 0px;
+    margin-right: -125px;
   
 }
 .footer-bottom{
     padding-top: 3rem;
-    padding-tp: 2rem;
+    padding-top: 2rem;
 
 }
 ul li a{

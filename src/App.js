@@ -1,28 +1,18 @@
-import React,{ useState }  from 'react';
-import { Link} from "react-router-dom";
+import React from 'react';
 import Routes from "./routes";
-import Footer from "../src/Components/Footer";
+import { Switch, Route } from "react-router-dom";
+import Dashboard from "./Components/Routes/Dashboard";
 
-class App extends React.Component {
- 
- 
- 
-  render(){
-  return (
-    
-    <div className="App ">
-        <div className="container ">
-         <nav>
-            <ul>
-             <li><Link to="/"> WMSU CLINIC </Link></li>
-            </ul>
-          </nav>
-          <Routes/>               
-        </div>
-        <Footer />
+const App = () => {
+
+  return (   
+    <div className="App">
+          <Routes/> 
+        <Switch>
+     <Route exact path="/Dashboard" component={Dashboard} />
+     </Switch>
       </div>
-  );
-}
+  )
 
 }
 
