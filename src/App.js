@@ -19,7 +19,7 @@ class App extends React.Component {
           </nav>
           <Routes/>               
         </div>
-        <Footer></Footer>
+        <Footer />
       </div>
   );
 }
